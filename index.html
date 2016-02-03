@@ -31,7 +31,7 @@
     
     <div class="container">
       <div class="index-logo">
-        <div></div>  
+        <img src="#"> 
       </div>
     </div> 
     
@@ -39,11 +39,12 @@
        <div class="container">
          <h1>Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
          <p>Рассмотрим 5 причин, по которым Седона лучше, чем Гранд Каньон!</p>  
-           <div class="reason">
-             <h2>Настоящий городок!</h2>
-             <p >№1</p>
-             <p>Седона - не атракцион для туристов, там течет своя жизнь</p>
-             <div></div>
+           <div class="reason reason-1">
+             <div>
+               <h2>Настоящий городок!</h2>
+               <p >№1</p>
+               <p>Седона - не атракцион для туристов, там течет своя жизнь</p>
+            </div>
            </div>
              
            <div class="reason">
@@ -66,11 +67,12 @@
              </div>
            </div>
 
-           <div class="reason">
-             <h2>Там есть мост дьявола</h2>
-             <p >№2</p>
-             <p>Да, по нему можно пройтись! Если конечно вы осмелитесь</p>
-             <div></div>
+           <div class="reason reason-2">
+             <div>
+               <h2>Там есть мост дьявола</h2>
+               <p >№2</p>
+               <p>Да, по нему можно пройтись! Если конечно вы осмелитесь</p>
+               <div></div>
            </div>
            
            <div class="reason">
@@ -93,31 +95,38 @@
              </div>  
            </div>
 
-         <div class="hotels">
+         <button class="hotels">
            <h2>Заинтересовались?</h2>	
            <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 
            <form class="hotels-look">
            	 <h2>Поиск гостиницы в Седоне</h2>
-           	 <b>Дата заезда:</b>
-           	   <input type="text" name="come" value="">
            	 
-           	 <b>Дата выезда:</b>
+           	 <label>Дата заезда:
+				<input type="text" name="come" value="">
+           	 </label>
+           	   
+           	 
+           	 <label>Дата выезда:
+				<input type="text" name="leave" value="">
+           	 </label>
            	   <input type="text" name="leave" value="">
            	 
-           	 <b>Взрослые:</b>
+           	 <label>Взрослые:
            	   <input type="number" name="adults" value="">
            	   <button class="btn-adults-minus">-</button>
            	   <button class="btn-adults-plus">+</button>
-           	 
-           	 <b>Дети:</b>
+           	 </label>
+
+           	 <label>Дети:
            	   <input type="number" name="children" value="">
            	   <button class="btn-children-minus">-</button>
            	   <button class="btn-children-plus">+</button>
-           	 
+           	 </label>
+
            	 <button></button> 
            </form>
-         </div>  
+         </button>   
 	
       <footer class="main-footer">
       <div class="container">
