@@ -2,19 +2,22 @@ body {
 	font-size: 14px;
 	line-height: 21px;
 	color: #333333;
-	font-family: pt sans regular;
+	font-weight: normal;
+	font-family: pt sans;
 }
 
 h1 {
 	font-size: 21px;
 	line-height: 26px;
 	color: #000000;
-	font-family: pt sans bold;
+	font-weight: bold;
+	font-family: pt sans;
 }
 
 h2 {
 	font-size: 21px;
 	line-height: 21px;
-	color: #333333;
-	font-family: pt sans bold;
+	color: #000000;
+	font-weight: bold;
+	font-family: pt sans;
 }
