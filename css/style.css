@@ -21,3 +21,52 @@ h2 {
 	font-weight: bold;
 	font-family: pt sans;
 }
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.main-header {
+margin-bottom: 60px;
+}
+
+.container {
+  width: 1060px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.main-navigation-left {
+	float: left;
+	width: 400px;
+	margin-right: 20px;
+	min-height: 70px;
+}
+
+.main-navigation-middle {
+	float: left;
+	width: 220px;
+	margin-right: 20px;
+	min-height: 70px;
+}
+
+.main-navigation-right {
+	float: left;
+	width: 400px;
+	min-height: 70px;
+}
+
+.index-logo {
+	height: 355px;
+	width: 460px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+}
+
+.main-content {
+	width: 1200px;
+}
