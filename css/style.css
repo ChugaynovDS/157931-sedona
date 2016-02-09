@@ -157,10 +157,6 @@ h2 {
 	min-height: 220px;	
 }
 
-.right {
-	float: right;
-}
-
 .found-hotels {
 	width: 1200px;
 	min-height: 540px;
@@ -188,3 +184,6 @@ h2 {
 	min-height: 150px;		
 }
 
+.right {
+	float: right;
+}
