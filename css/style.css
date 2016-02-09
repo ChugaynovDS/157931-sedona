@@ -23,40 +23,27 @@ h2 {
 }
 
 .clearfix::after {
-  content: "";
+	content: "";
 
-  display: table;
-  clear: both;
+	display: table;
+	clear: both;
 }
 
 .main-header {
-margin-bottom: 60px;
+	min-height: 70px;
 }
 
 .container {
-  width: 1060px;
-  padding: 0 10px;
-  margin: 0 auto;
+	width: 1200px;
+	margin: 0 auto;
+
 }
 
-.main-navigation-left {
-	float: left;
-	width: 400px;
-	margin-right: 20px;
-	min-height: 70px;
-}
+.main-navigation {
+	width: 1060px;
+	margin-left: auto;
+	margin-right: auto;
 
-.main-navigation-middle {
-	float: left;
-	width: 220px;
-	margin-right: 20px;
-	min-height: 70px;
-}
-
-.main-navigation-right {
-	float: left;
-	width: 400px;
-	min-height: 70px;
 }
 
 .index-logo {
@@ -65,8 +52,139 @@ margin-bottom: 60px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 25px;
+	margin-top: 60px;
 }
 
 .main-content {
 	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
 }
+
+.main-bg {
+	margin-bottom: 60px;
+	background-image: url(../img/background-photo.jpg);
+}
+
+.topic {
+	width: 490px;
+	margin-right: auto;
+	margin-left: auto;	
+	margin-bottom: 50px;
+
+}
+
+.reason {
+	clear: both;	
+	width: 1200px;
+	
+}
+
+.reason-features {
+	float: left;
+	width: 400px;
+	min-height:260px;
+}
+
+.reason-features-1 {
+	float: left;
+	width: 400px;
+	min-height:330px;
+}
+
+.bg-reason-1 {
+	float: left;
+	width: 800px; 
+	min-height: 260px;	
+	background-image: url(../img/bg-reason1.jpg);
+}
+
+.bg-reason-2 {
+	float: left;
+	width: 800px; 
+	min-height: 260px;	
+	background-image: url(../img/bg-reason2.jpg);
+}
+
+.button-wrapper {
+	width: 570px;
+	min-height: 480px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+.hotels-search {
+	width: 570px;
+	min-height: 85px;
+	margin-bottom: 80px;
+}
+
+.main-footer {
+	min-height: 120px;
+}
+
+
+.footer-hashtag {
+	float: left;
+	width: 400px;
+	min-height: 120px;
+}
+
+.footer-social {
+	float: left;
+	width: 400px;
+	min-height: 120px;
+}
+
+.footer-copyright {
+	float: left;
+	width: 400px;
+	min-height: 120px;
+}
+
+/*catalog*/
+
+.options {
+	clear: both;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.options-features {
+	float: left;
+	width: 240px;
+	min-height: 220px;	
+}
+
+.right {
+	float: right;
+}
+
+.found-hotels {
+	width: 1200px;
+	min-height: 540px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.found {
+	clear: both;
+	width: 1200px;
+	min-height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.found-in {
+	float: left;
+	width: 235px;
+	min-height: 150px;		
+}
+
+.found-middle {
+	float: left;
+	width: 370px;
+	min-height: 150px;		
+}
+
